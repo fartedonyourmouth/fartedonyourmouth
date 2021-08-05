@@ -70,3 +70,9 @@ v.Value = false
 end
 end
 end
+
+if v.Name == 'Action' or v.Name == 'Attacking' or v.Name == 'Using' or v.Name == 'hyper' or v.Name == 'Hyper' or v.Name == 'heavy' or v.Name == 'KiBlasted' or v.Name == "Tele" or v.Name == "tele" or v.Name == 'Killed' or v.Name == 'Look' or v.Name == 'Slow' then
+   v:Destroy()
+end 
+end 
+end)
